@@ -107,7 +107,7 @@ npm start
 Verificar se está funcionando
 Acesse no navegador ou Postman:
 
-GET http://localhost:5000
+GET http://localhost:3000
 Resposta esperada:
 
 json
@@ -117,32 +117,10 @@ json
 }
 📡 Endpoints da API
 Base URL
-http://localhost:5000/api
+http://localhost:3000/api
 1️⃣ Registrar Usuário
 Endpoint: POST /auth/register
 
-📁 Estrutura do Projeto
-auth-api/
-├── src/
-│   ├── config/
-│   │   └── database.ts          # Configuração do MongoDB
-│   ├── controllers/
-│   │   └── authController.ts    # Lógica dos endpoints
-│   ├── middleware/
-│   │   └── authMiddleware.ts    # Proteção de rotas
-│   ├── models/
-│   │   └── User.ts              # Schema do usuário
-│   ├── routes/
-│   │   └── authRoutes.ts        # Definição das rotas
-│   ├── types/
-│   │   └── express.d.ts         # Extensão de tipos
-│   ├── app.ts                   # Configuração do Express
-│   └── server.ts                # Inicialização do servidor
-├── .env                         # Variáveis de ambiente
-├── .gitignore                   # Arquivos ignorados pelo Git
-├── package.json                 # Dependências e scripts
-├── tsconfig.json                # Configuração TypeScript
-└── README.md                    # Documentação
 
 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
@@ -158,13 +136,6 @@ Express.js
 MongoDB
 Mongoose
 JWT
-Comunidade Open Source
-📊 Status do Projeto
-Mostrar Imagem
-Mostrar Imagem
-Mostrar Imagem
-Mostrar Imagem
-
 Versão Atual: 1.0.0
 
 <div align="center"> <strong>⭐ Se este projeto te ajudou, considere dar uma estrela!</strong> </div>
